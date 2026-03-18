@@ -49,24 +49,30 @@
 // document.write();
 // document.close();
 
-function onClick(){
-    console.log("Clicked");
-}
-function onMouseOver(){
-    console.log("on mouse over");
-}
-function onMouseOut(){
-    console.log("on mouse out");
-}
-function onMouseDown(){
-    console.log("on mouse down");
-}
-function onMouseUp(){
-    console.log("on mouse up");
-}
-function onMouseMove(){
-    console.log("on mouse move");
-}
-function onDblClick(){
-    console.log("double clicked");
+// mouse events
+// function onClick(){
+//     console.log("Clicked");
+// }
+// function onMouseOver(){
+//     console.log("on mouse over");
+// }
+// function onMouseOut(){
+//     console.log("on mouse out");
+// }
+// function onMouseDown(){
+//     console.log("on mouse down");
+// }
+// function onMouseUp(){
+//     console.log("on mouse up");
+// }
+// function onMouseMove(){
+//     console.log("on mouse move");
+// }
+// function onDblClick(){
+//     console.log("double clicked");
+// }
+
+//window events
+function myFucntion(){
+    alert("window loaded successfuly");
 }
