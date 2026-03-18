@@ -24,5 +24,49 @@
 // }
 
 //attributes
-const result=document.getElementById("jk").getAttribute("class");
-document.getElementById("p1").innerHTML=result;
+// // get attribute
+// const result=document.getElementById("jk").getAttribute("class");
+// document.getElementById("p1").innerHTML=result;
+
+// // set attribute
+// element.setAttribute("class","democlass");
+
+//style
+// #Disclaimer: Camel Case properties
+// element.style.propertyname=x;
+
+//html append method
+// // create element
+// const heading=document.createElement("h2");
+// // get the parent
+// const bodytag=document.getElementsByTagName("body");
+// bodytag[0].append(heading);
+// prepend(), before(), after()
+// // remove element
+// node.remove();
+// // close method
+// document.open();
+// document.write();
+// document.close();
+
+function onClick(){
+    console.log("Clicked");
+}
+function onMouseOver(){
+    console.log("on mouse over");
+}
+function onMouseOut(){
+    console.log("on mouse out");
+}
+function onMouseDown(){
+    console.log("on mouse down");
+}
+function onMouseUp(){
+    console.log("on mouse up");
+}
+function onMouseMove(){
+    console.log("on mouse move");
+}
+function onDblClick(){
+    console.log("double clicked");
+}
