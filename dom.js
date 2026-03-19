@@ -73,6 +73,34 @@
 // }
 
 //window events
-function myFucntion(){
+function myLoad(){
     alert("window loaded successfuly");
+}
+function onUnload(){
+    alert("unloaded");
+}
+function onResize(){
+    alert("resized");
+}
+
+//keyboard events
+function onKeyDown(){
+    console.log("on key down");
+}
+function onKeyUp(){
+    console.log("on key up");
+}
+
+//form events
+function onFocus(){
+    console.log("on focus");
+}
+function onBlur(){
+    console.log("on blur");
+}
+function onSubmit(){
+    console.log("submitted");
+}
+function onChange(){
+    console.log("changed");
 }
